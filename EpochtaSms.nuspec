@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>EpochtaSms</id>
+        <title>EpochtaSms</title>
+        <version>1.0.0</version>
+        <authors>cherepets</authors>
+	<owners>cherepets</owners>
+        <projectUrl>https://github.com/cherepets/EpochtaSms</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>.Net client for epochta.ru HTTPS API</description>
+	<iconUrl>http://i.imgur.com/mmf1RGa.gif</iconUrl>
+        <copyright></copyright>
+        <tags>red, sms, epochta, https, smpp</tags>
+    </metadata>
+    <files>
+        <file src="EpochtaSms\bin\Release\EpochtaSms.dll" target="lib\net45"/>
+    </files>
+</package>

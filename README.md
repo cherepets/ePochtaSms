@@ -1,2 +1,12 @@
 # ePochtaSms
-Net client for epochta.ru HTTPS API
+.Net client for ePochtaSms.ru HTTPS API
+
+Supports only sending messages for now.
+Usage:
+```javascript
+var client = new EpochtaSmsClient("Login", "Sender", "ApiKey");
+var message = new Message("79991234567", "Some text");
+await client.SendAsync(message);
+```
+
+License: [WTFPL](http://www.wtfpl.net/txt/copying/ "WTFPL")
