@@ -4,7 +4,7 @@
 Supports only sending messages for now.
 Usage:
 ```javascript
-var client = new EpochtaSmsClient("Login", "Sender", "ApiKey");
+var client = new EpochtaSmsClient("Username", "Password", "Sender");
 var message = new Message("79991234567", "Some text");
 await client.SendAsync(message);
 ```
