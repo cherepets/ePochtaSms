@@ -1,5 +1,5 @@
 # ePochtaSms
-.Net client for [ePochtaSms.ru](https://www.epochta.ru/) HTTPS API
+.Net client for [ePochta](https://www.epochta.ru/) HTTPS API
 
 Supports only sending messages for now.
 Usage:
