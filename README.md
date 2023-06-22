@@ -9,4 +9,6 @@ var message = new Message("79991234567", "Some text");
 await client.SendAsync(message);
 ```
 
+[Download from NuGet Gallery](https://www.nuget.org/packages/EpochtaSms/ "Download from NuGet Gallery")
+
 License: [WTFPL](http://www.wtfpl.net/txt/copying/ "WTFPL")
